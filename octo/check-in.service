@@ -1,0 +1,10 @@
+[Unit]
+Description=Regular check in
+Wants=check-in.timer
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/curl -X POST https://status.unexpectedeof.casa/?service=OCTOPRINT
+
+[Install]
+WantedBy=multi-user.target

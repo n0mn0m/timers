@@ -1,0 +1,10 @@
+[Unit]
+Description=Run checkin every 2 minutes
+Requires=check-in.service
+
+[Timer]
+Unit=check-in.service
+OnUnitInactiveSec=1m
+
+[Install]
+WantedBy=timers.target
