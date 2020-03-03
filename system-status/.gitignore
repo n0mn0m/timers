@@ -1,0 +1,8 @@
+# Emacs
+*~
+
+#Mac
+.DS_Store
+
+#dev
+.lsp/

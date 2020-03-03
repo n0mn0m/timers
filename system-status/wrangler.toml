@@ -1,0 +1,9 @@
+name = "traffic-signal"
+type = "javascript"
+account_id = "71d34bfddb24398d3316987ca0abe9df"
+route = "https://status.unexpectedeof.casa/*"
+zone_id = "c4bf237d62f19e697f634cf753867c2d"
+
+kv-namespaces = [
+	{binding = "LOCAL_STATUS", id = "6c5d5daf8abe4dcea42044547314865f"}
+]
