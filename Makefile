@@ -1,3 +1,4 @@
+# Place in /etc/systemd/system
 arcade:
 	rsync -av -e ssh ./arcade/ lightbike:/home/n0mn0m
 	# sudo cp ./check-in* /etc/systemd/system
